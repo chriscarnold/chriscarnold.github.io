@@ -183,14 +183,19 @@ img {
   align-items: center;
 }
 
-.nav__logo,
+
+.nav__logo{
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
+}
+
 .nav__toggle{
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
 
 .nav__logo:hover{
-  color: var(--first-color);
+  color: var(--first-color-lighter);
 }
 
 .nav__toggle{
