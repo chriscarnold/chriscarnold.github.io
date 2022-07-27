@@ -483,10 +483,10 @@ img {
 }
 
 
-/* .swiper-project-icon{
+.swiper-project-icon{
   font-size: 2rem;
   color: var(--first-color);
-} */
+}
 
 .swiper-button-prev{
   left: -.5rem;
@@ -506,15 +506,17 @@ img {
 
 /*==================== CONTACT====================*/
 .contact__container{
-  row-gap: 3rem;
+  row-gap: 4rem;
+
 }
 
 .contact__information{
   display: flex;
-  align-items: center;
-  margin-bottom: var(--mb-2);
-  margin-left: var(--mb-1-5);
+  align-self: center;
+  margin: auto;
+  width: 50%;
   padding-left: 3rem;
+  margin-bottom: var(--mb-3);
 }
 
 .contact__icon{
