@@ -511,8 +511,10 @@ img {
 
 .contact__information{
   display: flex;
+  align-items: center;
   margin-bottom: var(--mb-2);
   margin-left: var(--mb-1-5);
+  padding-left: 3rem;
 }
 
 .contact__icon{
@@ -679,8 +681,14 @@ img {
 
 /* For big devices */
 @media screen and (min-width: 1024px){
+  .header,
+  .main{
+    padding: 0;
+  }
+
+
   .home__blob{
-    width: 320px;
+    width: 330px;
   }
   .home__social{
     transform: translateX(-6rem);
